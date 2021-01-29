@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Source+Code+Pro:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div id="header__nav" class="header__inner">
+        <div data-menuanchor="top">
+          <a class="logo" href="#top">
+            <picture class="logo__img">
+              
+              <img src="images/logo.svg" alt="">
+            </picture>
+          </a>
+        </div>
+        <nav class="menu">
+          <button class="menu__btn">
+            <span class="menu__btn-line"></span>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__list-item" data-menuanchor="about">
+              <a class="menu__list-link" href="#about">Обо мне</a>
+            </li>
+            <li class="menu__list-item" data-menuanchor="skills">
+              <a class="menu__list-link" href="#skills">Навыки</a>
+            </li>
+            <li class="menu__list-item" data-menuanchor="cases">
+              <a class="menu__list-link" href="#cases">Кейсы</a>
+            </li>
+            <li class="menu__list-item" data-menuanchor="contacts">
+              <a class="menu__list-link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <header class="header__social">
+          <div class="header__social-items">
+            <a href="https://web.whatsapp.com/send?phone=79383402819" class="header__social-item">
+              <img src="images/mobile.svg" alt="">
+            </a>
+          </div>
+          <div class="header__social-items">
+            <a href="mailto:vladislav.jorin@gmail.com" class="header__social-item">
+              <img src="images/mail.svg" alt="">
+            </a>
+          </div>
+          <div class="header__social-items">
+            <a href="https://teleg.one/Vladislav_Iorin" class="header__social-item">
+              <img src="images/telegram.svg" alt="">
+            </a>
+          </div>
+        </header>
+      </div>
+    </div>
+  </header>
+
+  <main id="fullpage">
+    <section class="page-section top">
+      <div class="page-section__wrapper top__wrapper">
+        <div class="container">
+          <div class="top__inner">
+            <div class="top__title">
+              <h3 class="top__title-first">
+                junior frontend
+              </h3>
+              <h1 class="top__title-second">DEVELOPER</h1>
+            </div>
+            <div class="top__name">
+              <h4 class="top__name-first">Владислав<br>Иорин</h4>
+            </div>
+            <div class="top__arrow">
+              <img src="images/top-arrow.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-anchor="about" class="page-section about">
+      <div class="page-section__wrapper">
+        <div class="container">
+          <div class="about__top">
+            <div id="aboutMe" class="about__title"></div>
+            <div class="about__description">
+              <p>Меня зовут Владислав и я начинаю свой путь в профессии. Стартовал с курса “Fullstack developer” от
+                SkillFactory,
+                но после его прохождения понял, что хочу развиваться в frontend-разработке. Я быстро учусь.
+              </p>
+              <p> Моя цель — создавать полезные и приятные продукты, которые делают жизнь проще.</p>
+            </div>
+          </div>
+          <div class="about__under">
+            <div class="about__img">
+              <img src="images/photo.jpg" alt="">
+            </div>
+            <div class="about__circle">
+              <div class="about__skills">
+                <a href="#skills"> Мои навыки</a>
+              </div>
+              <div class="about__experience">
+                <a href="#cases">Мой опыт</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section data-anchor="skills" class="page-section skills">
+      <div class="page-section__wrapper">
+        <div class="skills__plug">
+          <img src="" alt="">
+        </div>
+        <div class="container">
+          <div class="skills__wrapper">
+            <div class="skills__hard paper">
+              <div class="skills__title">
+                HARD
+              </div>
+              <ul>
+                <li>HTML/CSS</li>
+                <li>JS</li>
+                <li>Препроцессоры</li>
+                <li>GIT</li>
+                <li>Основы React</li>
+                <li>Основы MySQL/python</li>
+              </ul>
+            </div>
+            <div class="skills__soft--transform paper">
+              <div class="skills__title">
+                SOFT
+              </div>
+              <ul>
+                <li>Коммуникация: работа в команде и самопрезентация</li>
+                <li>Адаптация в нестандартных ситуациях</li>
+                <li>Дисциплина и тайм-менеджмент</li>
+                <li>Проактивность(я умею гуглить)</li>
+                <li>Эмоцианальный интеллект</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-anchor="cases" class="page-section cases">
+      <div class="page-section__wrapper">
+        <div class="container">
+          <div class="cases__titlemax">
+            <h2>Некоторые кейсы</h2>
+          </div>
+          <div class="cases__wrapper">
+            <hr class="cases__hr">
+            <div class="cases__case">
+              <div class="cases__num">
+                <img src="images/num-1.png" alt="">
+              </div>
+              <div class="cases__title">
+                <h3>Delivery Food</h3>
+              </div>
+              <div class="cases__description">
+                <span>Сервис доставки еды, на нем я отрабатывал async/await, callback и другие штучки</span>
+              </div>
+              <button class="cases__button"><a href="https://github.com/DomVverhDnom/Delivery-Food">Посмотреть кейс</a></button>
+            </div>
+            <hr class="cases__hr">
+            <div class="cases__case">
+              <div class="cases__num">
+                <img src="images/num-2.png" alt="">
+              </div>
+              <div class="cases__title">
+                <h3>Landing Dron</h3>
+              </div>
+              <div class="cases__description">
+                <span>Просто адаптивный лендинг про дрона на котором я основное время посвятил верстке</span>
+              </div>
+              <button class="cases__button"><a href="https://github.com/DomVverhDnom/dron">Посмотреть кейс</a></button>
+            </div>
+            <hr class="cases__hr">
+            <div class="cases__case">
+              <div class="cases__num">
+                <img src="images/num-3.png" alt="">
+              </div>
+              <div class="cases__title">
+                <h3>Chat</h3>
+              </div>
+              <div class="cases__description">
+                <span>В этом учебном проекте я пытался сделать фронт чата</span>
+              </div>
+              <button class="cases__button"><a href="https://github.com/DomVverhDnom/chat">Посмотреть кейс</a></button>
+            </div>
+            <hr class="cases__hr">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-anchor="contacts" class="page-section contacts">
+      <div class="page-section__wrapper">
+        <div class="container">
+          <div class="contacts__wrapper">
+            <div class="contacts__info">
+              <h3>Владислав Иорин</h3>
+              <span>8-938-340-28-19</span>
+              <span>vladislav.jorin@gmail.com</span>
+              <span>г. Москва</span>
+              <span>Контакты</span>
+            </div>
+            <div class="contacts__links">
+              <div class="contacts__links-wrapper">
+               <div class="contacts__link"><a href="https://web.whatsapp.com/send?phone=79383402819">What’s app</a> <img src="images/arrow.svg" alt=""></div>
+               <div class="contacts__link"><a href="https://teleg.one/Vladislav_Iorin">Telegram</a> <img src="images/arrow.svg" alt=""></div>
+               <div class="contacts__link"><a href="mailto:vladislav.jorin@gmail.com">Gmail</a> <img src="images/arrow.svg" alt=""></div>
+               <div class="contacts__link"><a href="https://github.com/DomVverhDnom">GitHub</a> <img src="images/arrow.svg" alt=""></div>
+              </div>
+              
+            </div>
+          </div>
+
+          <!-- <footer class="footer">
+            <div class="footer__logo">
+              <img src="images/logo.svg" alt="">
+            </div>
+            <div class="footer__save">
+              <a href="">Скачать резюме</a>
+            </div>
+          </footer> -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
